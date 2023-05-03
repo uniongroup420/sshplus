@@ -450,19 +450,25 @@ case "$x" in
    swapmemory
    ;;
    12)
-   gltunnel
+   clear
+   addhost
+   echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
+   menu2
    ;;
    13)
-   gltunnel
+   clear
+   delhost
+   echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
+   menu2
    ;;
    14)
-   gltunnel
+   initbot
    ;;
    15)
-   gltunnel
+   botsshp
    ;;
    16)
-   gltunnel
+   inst-botteste
    ;;
    17)
    gltunnel
